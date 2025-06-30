@@ -2,7 +2,7 @@
 
 ---
 
-### 🔧 Linux Commands (System Monitoring, File Management, Process Control)
+Linux Commands (System Monitoring, File Management, Process Control)
 
 1. `top` - Monitor system processes and resource usage.
 2. `htop` - Interactive process viewer with a user-friendly UI.
@@ -29,7 +29,7 @@
 
 ---
 
-### 🛎️ Networking Commands
+Networking Commands
 
 1. `ip a` - Show IP address and interface details.
 2. `ifconfig` - Legacy tool to view network configuration.
@@ -55,8 +55,7 @@
 **Why**: Essential for debugging network issues, connectivity testing, port/traffic analysis, DNS, and firewall management.
 
 ---
-
-### 📅 Jenkins Commands
+Jenkins Commands
 
 1. `sudo systemctl status jenkins` - Check Jenkins service status.
 2. `sudo systemctl restart jenkins` - Restart Jenkins.
@@ -83,7 +82,7 @@
 
 ---
 
-### 💡 Docker Commands
+Docker Commands
 
 1. `docker ps` - List running containers.
 2. `docker ps -a` - List all containers.
@@ -110,7 +109,7 @@
 
 ---
 
-### ⚖️ Kubernetes (kubectl)
+Kubernetes (kubectl)
 
 1. `kubectl get pods` - List all pods.
 2. `kubectl get svc` - List services.
@@ -136,8 +135,7 @@
 **Why**: Crucial for cluster management, app deployment, monitoring, and scaling containers.
 
 ---
-
-### ⚖️ Ansible Commands
+ Ansible Commands
 
 1. `ansible all -m ping` - Test connectivity.
 2. `ansible-inventory --list` - Show inventory.
@@ -164,7 +162,7 @@
 
 ---
 
-### 🛠️ Terraform Commands
+Terraform Commands
 
 1. `terraform init` - Initialize configuration.
 2. `terraform validate` - Validate syntax.
@@ -190,8 +188,7 @@
 **Why**: Required for infrastructure automation, provisioning, tracking changes, and managing cloud environments.
 
 ---
-
-### ⚖️ ArgoCD Commands
+ ArgoCD Commands
 
 1. `argocd login <server>` - Login to Argo server.
 2. `argocd context` - View current context.
@@ -217,5 +214,3 @@
 **Why**: Essential for GitOps workflows, continuous deployment, app health/status tracking, and auto-syncing apps with source.
 
 ---
-
-Let me know if you want these commands tailored for specific [cloud providers](f), [CI/CD integrations](f), or [interview scenario simulations](f).
