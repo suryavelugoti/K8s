@@ -24,6 +24,7 @@ Linux Commands (System Monitoring, File Management, Process Control)
 18. `whoami` - Show current logged-in user.
 19. `history` - Show previously executed commands.
 20. `crontab -e` - Edit scheduled cron jobs.
+21. "lsof -i: port num - to check the on the port process of it 
 
 **Why**: These help in monitoring systems, managing files, user access, automating tasks, and troubleshooting.
 
