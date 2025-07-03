@@ -1,8 +1,6 @@
-**DevOps Daily Use Commands (with Reasons) - Interview Ready Guide**
+DevOps Daily Use Commands
 
----
 
-Linux Commands (System Monitoring, File Management, Process Control)
 
 1. `top` - Monitor system processes and resource usage.
 2. `htop` - Interactive process viewer with a user-friendly UI.
@@ -29,9 +27,6 @@ Linux Commands (System Monitoring, File Management, Process Control)
 23.ps aux --sort=-%mem | head -n 5
 
 
-**Why**: These help in monitoring systems, managing files, user access, automating tasks, and troubleshooting.
-
----
 
 Networking Commands
 
@@ -56,9 +51,7 @@ Networking Commands
 19. `ip route` - Show routing table.
 20. `arp -a` - View ARP cache.
 
-**Why**: Essential for debugging network issues, connectivity testing, port/traffic analysis, DNS, and firewall management.
 
----
 Jenkins Commands
 
 1. `sudo systemctl status jenkins` - Check Jenkins service status.
@@ -82,9 +75,7 @@ Jenkins Commands
 19. `withCredentials([string(credentialsId: 'my-pass', variable: 'PASS')])` - Use credentials securely.
 20. `build job: 'Deploy-App'` - Trigger another job.
 
-**Why**: Key for automation, CI/CD implementation, job configurations, pipeline scripting, and service management.
 
----
 
 Docker Commands
 
@@ -109,9 +100,6 @@ Docker Commands
 19. `docker pull image` - Pull image.
 20. `docker cp container:/path ./` - Copy from container.
 
-**Why**: Vital for managing containers, troubleshooting, building images, deploying services, and debugging.
-
----
 
 Kubernetes (kubectl)
 
@@ -136,9 +124,7 @@ Kubernetes (kubectl)
 19. `kubectl version` - Show version.
 20. `kubectl api-resources` - List all API resources.
 
-**Why**: Crucial for cluster management, app deployment, monitoring, and scaling containers.
 
----
  Ansible Commands
 
 1. `ansible all -m ping` - Test connectivity.
@@ -162,9 +148,7 @@ Kubernetes (kubectl)
 19. `ansible-playbook -e "var=value"` - Pass extra vars.
 20. `ansible-playbook --limit "host1"` - Limit to host.
 
-**Why**: Automate configuration management, provisioning, and ensure idempotency.
 
----
 
 Terraform Commands
 
@@ -189,9 +173,7 @@ Terraform Commands
 19. `terraform refresh` - Sync state file.
 20. `terraform apply -auto-approve` - Skip prompt.
 
-**Why**: Required for infrastructure automation, provisioning, tracking changes, and managing cloud environments.
 
----
  ArgoCD Commands
 
 1. `argocd login <server>` - Login to Argo server.
@@ -215,6 +197,3 @@ Terraform Commands
 19. `argocd proj create` - Create project.
 20. `argocd app patch` - Patch app config.
 
-**Why**: Essential for GitOps workflows, continuous deployment, app health/status tracking, and auto-syncing apps with source.
-
----
