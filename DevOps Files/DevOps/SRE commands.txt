@@ -25,6 +25,9 @@ Linux Commands (System Monitoring, File Management, Process Control)
 19. `history` - Show previously executed commands.
 20. `crontab -e` - Edit scheduled cron jobs.
 21. "lsof -i: port num - to check the on the port process of it 
+22.ps aux --sort=-%cpu | head -n 5
+23.ps aux --sort=-%mem | head -n 5
+
 
 **Why**: These help in monitoring systems, managing files, user access, automating tasks, and troubleshooting.
 
